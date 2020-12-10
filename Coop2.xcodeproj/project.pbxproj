@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2E58AEC0255B35A50089C042 /* RESTportMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RESTportMgr.cpp; sourceTree = "<group>"; };
+		2E58AEC1255B35A50089C042 /* RESTportMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RESTportMgr.h; sourceTree = "<group>"; };
+		2E58AEC2255B7E560089C042 /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
+		2E58AEC3255B7E560089C042 /* http_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
+		2E58AEDD255D9C900089C042 /* yuarel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yuarel.c; sourceTree = "<group>"; };
+		2E58AEDE255D9C900089C042 /* yuarel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yuarel.h; sourceTree = "<group>"; };
+		2E6198B12513C4FC00C3875E /* TimeLib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeLib.cpp; sourceTree = "<group>"; };
+		2E6198B22513C4FC00C3875E /* ScheduleMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleMgr.h; sourceTree = "<group>"; };
+		2E6198B42513C4FC00C3875E /* CmdParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdParser.h; sourceTree = "<group>"; };
+		2E6198B52513C4FC00C3875E /* RTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTC.h; sourceTree = "<group>"; };
+		2E6198B62513C4FC00C3875E /* CmdBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdBuffer.h; sourceTree = "<group>"; };
+		2E6198B82513C4FC00C3875E /* sunset.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sunset.cpp; sourceTree = "<group>"; };
+		2E6198B92513C4FC00C3875E /* TimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeLib.h; sourceTree = "<group>"; };
+		2E6198BA2513C4FC00C3875E /* CommonIncludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonIncludes.h; sourceTree = "<group>"; };
+		2E6198BB2513C4FC00C3875E /* CmdParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CmdParser.cpp; sourceTree = "<group>"; };
+		2E6198BC2513C4FC00C3875E /* sunset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunset.h; sourceTree = "<group>"; };
+		2E6198BD2513C4FC00C3875E /* EEPPROMMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEPPROMMgr.h; sourceTree = "<group>"; };
+		2E6198BE2513C4FC00C3875E /* CmdLineMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CmdLineMgr.cpp; sourceTree = "<group>"; };
+		2E6198BF2513C4FC00C3875E /* TimeSyncMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeSyncMgr.cpp; sourceTree = "<group>"; };
+		2E6198C02513C4FC00C3875E /* CmdCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdCallback.h; sourceTree = "<group>"; };
+		2E6198C12513C4FC00C3875E /* ScheduleMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleMgr.cpp; sourceTree = "<group>"; };
+		2E6198C22513C4FC00C3875E /* TimeSyncMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeSyncMgr.h; sourceTree = "<group>"; };
+		2E6198C32513C4FC00C3875E /* CmdLineMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdLineMgr.h; sourceTree = "<group>"; };
+		2E6198C42513C4FC00C3875E /* RTC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RTC.cpp; sourceTree = "<group>"; };
+		2E6198C52513C4FC00C3875E /* CmdCallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CmdCallback.cpp; sourceTree = "<group>"; };
+		2E6198C62513C4FC00C3875E /* CmdBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CmdBuffer.cpp; sourceTree = "<group>"; };
+		2E6198C72513C4FD00C3875E /* EEPPROMMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EEPPROMMgr.cpp; sourceTree = "<group>"; };
+		2E6198C82513C5EE00C3875E /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		2E6198C92513C5EE00C3875E /* Utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		2E6198DD25168A6700C3875E /* door.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = door.cpp; sourceTree = "<group>"; };
+		2E6198DE25168A6700C3875E /* StateMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMgr.h; sourceTree = "<group>"; };
+		2E6198DF25168A6700C3875E /* door.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = door.h; sourceTree = "<group>"; };
+		2E6198E025168A6700C3875E /* StateMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMgr.cpp; sourceTree = "<group>"; };
+		2E6198E125190E1000C3875E /* TempSensor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TempSensor.cpp; sourceTree = "<group>"; };
+		2E6198E225190E1000C3875E /* TempSensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempSensor.h; sourceTree = "<group>"; };
+		2E6C40532519935500B86EB6 /* TelnetPortMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TelnetPortMgr.cpp; sourceTree = "<group>"; };
+		2E6C40542519935500B86EB6 /* TelnetPortMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelnetPortMgr.h; sourceTree = "<group>"; };
+		2E6E5CA3252E1EF000CF14C4 /* LoopbackStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoopbackStream.cpp; sourceTree = "<group>"; };
+		2E6E5CA4252E1EF000CF14C4 /* LoopbackStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopbackStream.h; sourceTree = "<group>"; };
+		2E6E5CA7252E79F000CF14C4 /* libtelnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libtelnet.h; sourceTree = "<group>"; };
+		2E6E5CA8252E79F000CF14C4 /* libtelnet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libtelnet.c; sourceTree = "<group>"; };
+		2E6E5CA92534C83000CF14C4 /* Coop2.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Coop2.ino; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		2E6E5CAA2534F34500CF14C4 /* display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = display.cpp; sourceTree = "<group>"; };
+		2E6E5CAB2534F34500CF14C4 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		2E6E5CAC2537C01900CF14C4 /* WifiMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WifiMgr.cpp; sourceTree = "<group>"; };
+		2E6E5CAD2537C01900CF14C4 /* WifiMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiMgr.h; sourceTree = "<group>"; };
+		2E6E5CAE2537DBE100CF14C4 /* buttons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buttons.cpp; sourceTree = "<group>"; };
+		2E6E5CAF2537DBE100CF14C4 /* buttons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buttons.h; sourceTree = "<group>"; };
+		2E6E5CB0253CF1B400CF14C4 /* INA219.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = INA219.cpp; sourceTree = "<group>"; };
+		2E6E5CB1253CF1B400CF14C4 /* INA219.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INA219.h; sourceTree = "<group>"; };
+		2E6E5CB2253CF23300CF14C4 /* PowerMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerMgr.cpp; sourceTree = "<group>"; };
+		2E6E5CB3253CF23300CF14C4 /* PowerMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerMgr.h; sourceTree = "<group>"; };
+		2ECF68D7252AB249006FE713 /* WifiParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WifiParser.cpp; sourceTree = "<group>"; };
+		2ECF68D8252AB249006FE713 /* ESP8266Mgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ESP8266Mgr.cpp; sourceTree = "<group>"; };
+		2ECF68D9252AB249006FE713 /* ESP8266Mgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESP8266Mgr.h; sourceTree = "<group>"; };
+		2ECF68DA252AB249006FE713 /* WifiParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiParser.h; sourceTree = "<group>"; };
+		2ED40C242507087F000A1F35 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2E3E5C8624DDF7100043B4A6 = {
+			isa = PBXGroup;
+			children = (
+				2ED40C242507087F000A1F35 /* Makefile */,
+				2E6E5CA92534C83000CF14C4 /* Coop2.ino */,
+				2E6198BA2513C4FC00C3875E /* CommonIncludes.h */,
+				2E6198BE2513C4FC00C3875E /* CmdLineMgr.cpp */,
+				2E6198C32513C4FC00C3875E /* CmdLineMgr.h */,
+				2E6198C62513C4FC00C3875E /* CmdBuffer.cpp */,
+				2E6198B62513C4FC00C3875E /* CmdBuffer.h */,
+				2E6198C52513C4FC00C3875E /* CmdCallback.cpp */,
+				2E6198C02513C4FC00C3875E /* CmdCallback.h */,
+				2E6198BB2513C4FC00C3875E /* CmdParser.cpp */,
+				2E6198B42513C4FC00C3875E /* CmdParser.h */,
+				2E6198C72513C4FD00C3875E /* EEPPROMMgr.cpp */,
+				2E6198BD2513C4FC00C3875E /* EEPPROMMgr.h */,
+				2E6C40532519935500B86EB6 /* TelnetPortMgr.cpp */,
+				2E6C40542519935500B86EB6 /* TelnetPortMgr.h */,
+				2E58AEC1255B35A50089C042 /* RESTportMgr.h */,
+				2E58AEC0255B35A50089C042 /* RESTportMgr.cpp */,
+				2E58AEC2255B7E560089C042 /* http_parser.c */,
+				2E58AEC3255B7E560089C042 /* http_parser.h */,
+				2E58AEDD255D9C900089C042 /* yuarel.c */,
+				2E58AEDE255D9C900089C042 /* yuarel.h */,
+				2E6E5CA8252E79F000CF14C4 /* libtelnet.c */,
+				2E6E5CA7252E79F000CF14C4 /* libtelnet.h */,
+				2E6E5CA3252E1EF000CF14C4 /* LoopbackStream.cpp */,
+				2E6E5CA4252E1EF000CF14C4 /* LoopbackStream.h */,
+				2E6198C42513C4FC00C3875E /* RTC.cpp */,
+				2E6198B52513C4FC00C3875E /* RTC.h */,
+				2E6198C12513C4FC00C3875E /* ScheduleMgr.cpp */,
+				2E6198B22513C4FC00C3875E /* ScheduleMgr.h */,
+				2E6198DE25168A6700C3875E /* StateMgr.h */,
+				2E6198E025168A6700C3875E /* StateMgr.cpp */,
+				2E6E5CAE2537DBE100CF14C4 /* buttons.cpp */,
+				2E6E5CAF2537DBE100CF14C4 /* buttons.h */,
+				2E6198DD25168A6700C3875E /* door.cpp */,
+				2E6198DF25168A6700C3875E /* door.h */,
+				2E6E5CAA2534F34500CF14C4 /* display.cpp */,
+				2E6E5CAB2534F34500CF14C4 /* display.h */,
+				2E6E5CB2253CF23300CF14C4 /* PowerMgr.cpp */,
+				2E6E5CB3253CF23300CF14C4 /* PowerMgr.h */,
+				2E6E5CB0253CF1B400CF14C4 /* INA219.cpp */,
+				2E6E5CB1253CF1B400CF14C4 /* INA219.h */,
+				2E6198B82513C4FC00C3875E /* sunset.cpp */,
+				2E6198BC2513C4FC00C3875E /* sunset.h */,
+				2E6198E125190E1000C3875E /* TempSensor.cpp */,
+				2E6198E225190E1000C3875E /* TempSensor.h */,
+				2E6198B12513C4FC00C3875E /* TimeLib.cpp */,
+				2E6198B92513C4FC00C3875E /* TimeLib.h */,
+				2E6198BF2513C4FC00C3875E /* TimeSyncMgr.cpp */,
+				2E6198C22513C4FC00C3875E /* TimeSyncMgr.h */,
+				2E6198C92513C5EE00C3875E /* Utilities.cpp */,
+				2E6198C82513C5EE00C3875E /* Utilities.h */,
+				2E6E5CAD2537C01900CF14C4 /* WifiMgr.h */,
+				2E6E5CAC2537C01900CF14C4 /* WifiMgr.cpp */,
+				2ECF68D8252AB249006FE713 /* ESP8266Mgr.cpp */,
+				2ECF68D9252AB249006FE713 /* ESP8266Mgr.h */,
+				2ECF68D7252AB249006FE713 /* WifiParser.cpp */,
+				2ECF68DA252AB249006FE713 /* WifiParser.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2E3E5C8B24DDF7100043B4A6 /* Coop2 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 2E3E5C8E24DDF7100043B4A6 /* Build configuration list for PBXLegacyTarget "Coop2" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = Coop2;
+			passBuildSettingsInEnvironment = 1;
+			productName = foo;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		2E3E5C8724DDF7100043B4A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = foo;
+				TargetAttributes = {
+					2E3E5C8B24DDF7100043B4A6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2E3E5C8A24DDF7100043B4A6 /* Build configuration list for PBXProject "Coop2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3E5C8624DDF7100043B4A6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3E5C8B24DDF7100043B4A6 /* Coop2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2E3E5C8C24DDF7100043B4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		2E3E5C8D24DDF7100043B4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		2E3E5C8F24DDF7100043B4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E3E5C9024DDF7100043B4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3E5C8A24DDF7100043B4A6 /* Build configuration list for PBXProject "Coop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E5C8C24DDF7100043B4A6 /* Debug */,
+				2E3E5C8D24DDF7100043B4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3E5C8E24DDF7100043B4A6 /* Build configuration list for PBXLegacyTarget "Coop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E5C8F24DDF7100043B4A6 /* Debug */,
+				2E3E5C9024DDF7100043B4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3E5C8724DDF7100043B4A6 /* Project object */;
+}
